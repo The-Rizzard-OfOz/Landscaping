@@ -1,0 +1,47 @@
+nav{
+    background-color: green;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
+nav a:hover{
+    background-color: green;
+    color: white;
+}
+.dropdown a {
+    text-decoration: none;
+    background-color: white;
+    color: green;
+    padding: 10px 15px;
+    display: block;
+}
+.dropdown .content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content {
+    display: block;
+}
+
+
+alt{
+    color: white;
+}
+form {
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 16px;
+    text-decoration: bold;
+}
+img{
+    width: 50%;
+    height: 30%;
+    border-left: 50%;
+}
